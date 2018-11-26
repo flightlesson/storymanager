@@ -1,0 +1,16 @@
+<html xmlns='http://www.w3.org/1999/xhtml'
+      xmlns:f='http://java.sun.com/jsf/core'
+      xmlns:h='http://java.sun.com/jsf/html'>
+    <h:head>
+        <title>Tryme</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </h:head>
+    <h:body>
+        <h1>Tryme ${worldBean.world}!</h1>  #{worldBean.world}
+        
+        <h:form>
+            worldBean: <h:inputText value="#{worldBean.world}" id="world1"/>
+        </h:form>
+        
+    </h:body>
+</html>
